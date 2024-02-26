@@ -18,7 +18,7 @@ inputs:
   path:
     description: 'Folder to find the outputs with pattern'
     required: true
-    default: 'admin${{ github.workspace }}/monorepo/projects/algorithms/on-call/comparator/src/main/resources/output/???_ALG???.csv'
+    default: 'admin${{ github.workspace }}/monorepo/projects/algorithms/on-call/comparator/src/main/resources/output'
 outputs:
   result:
     description: 'A table with the results'
